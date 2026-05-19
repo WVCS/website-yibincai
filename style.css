@@ -1,3 +1,21 @@
-body {
+@charset "utf-8";
+/* CSS Document */
 
+body {
+	background-color: goldenrod;
+}
+
+img {
+	width: 400px;
+	border: 15px dotted blue;
+	border-radius: 50%;
+}
+
+img:hover {
+	border: 25px dotted cyan;
+}
+
+h2 {
+	color: red;
+	text-decoration: underline wavy 5x red;
 }
