@@ -17,5 +17,6 @@ img:hover {
 
 h2 {
 	color: red;
+	text-shadow: 11px 12px 15px darkblue;
 	text-decoration: underline wavy 5x red;
 }
