@@ -2,21 +2,52 @@
 /* CSS Document */
 
 body {
-	background-color: goldenrod;
+  margin: 0;
+  padding-top: 80px;
+  background-color: goldenrod;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #8a2be2;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px 0;
+}
+
+nav a {
+  background-color: #e35cd5;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+nav a:hover {
+  background-color: #777;
 }
 
 img {
-	width: 400px;
-	border: 15px dotted blue;
-	border-radius: 50%;
+  width: 400px;
+  border: 15px dotted blue;
+  border-radius: 50%;
 }
 
 img:hover {
-	border: 25px dotted cyan;
+  border: 25px dotted cyan;
 }
 
 h2 {
-	color: red;
-	text-shadow: 11px 12px 15px darkblue;
-	text-decoration: underline wavy 5x red;
+  color: red;
+  text-shadow: 11px 12px 15px darkblue;
+  text-decoration: underline wavy red;
 }
